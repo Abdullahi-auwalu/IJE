@@ -6,6 +6,8 @@ import Banner from "@/components/Banner";
 import About from "@/components/About";
 import HowItWorks from "@/components/HowItWorks";
 import Download from "@/components/Download";
+import AskedQuestions from "@/components/AskedQuestions";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +29,8 @@ export default function RootLayout({
         <About />
         <HowItWorks />
         <Download />
+        <AskedQuestions />
+        <Footer />
         {children}
       </body>
     </html>
