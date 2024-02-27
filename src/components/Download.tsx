@@ -3,7 +3,7 @@ import Image from "next/image";
 const Download = () => {
   return (
     <div className="mt-10 w-full flex items-center justify-center">
-      <div className=" flex flex-col lg:flex-row w-[80%] lg:h-[640px] h-[1200px] rounded-3xl lg:px-26 py-10 px-20 bg-[#FAA928]">
+      <div className=" flex flex-col lg:flex-row w-[80%] lg:h-[623px] h-[1191px] rounded-3xl lg:px-26 py-10 px-6 sm:px-20 bg-[#FAA928]">
         <div className="flex flex-col items-start gap-12 w-[40%]">
           <div className="flex flex-col gap-3 mt-24">
             <h1 className="text-5xl font-extrabold flex flex-col gap-5">
@@ -20,16 +20,18 @@ const Download = () => {
               alt="play-store"
               width={150}
               height={70}
+              className=" w-[150px] sm:w-[200px] h-[80px]"
             />
             <Image
               src="/apple-store.png"
               alt="play-store"
               width={150}
               height={70}
+              className=" w-[150px] sm:w-[200px] h-[80px]"
             />
           </div>
         </div>
-        <div className="flex relative w-[60%] mt-24">
+        <div className="flex relative w-[60%] mt-20">
           <Image
             src="/QRcode.png"
             alt="phone"
