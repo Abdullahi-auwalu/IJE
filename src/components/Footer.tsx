@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#111827] sm:h-[1000px] md:h-[880px] h-[1300px] w-full">
+    <div className=" bg-[#111827]  md:h-[898px] h-[1400px] w-full">
       <div className="flex flex-col items-center py-10 justify-center">
         <div className="flex flex-col h-[100px] w-auto text-center">
           <h1 className="text-[#E5E7EB] text-3xl font-bold py-5">
@@ -10,13 +10,13 @@ const Footer = () => {
           </h1>
           <p className="text-[#6B7280]">Subscribe for updates on Ije</p>
         </div>
-        <div className="flex pt-14 ">
+        <div className="flex pt-14 flex-col sm:flex-row ">
           <input
             type="text"
             placeholder="Enter your email"
             className="sm:w-[396px] h-[56px] text-[#6B7280] mr-3 px-5 bg-[#0c0c0c] rounded-lg"
           />
-          <button className="bg-[#FFAD0D] h-[56px] px-3 rounded-lg font-semibold">
+          <button className="bg-[#FFAD0D] h-[56px] px-3 rounded-lg font-semibold w-[150px] mt-5 sm:mt-0">
             Subscribe
           </button>
         </div>

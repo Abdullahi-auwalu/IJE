@@ -69,7 +69,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="flex  flex-1 w-auto justify-center">
-          <div className="flex items-end justify-center w-[389px] sm:w-[589px] h-[601px] bg-gray-50">
+          <div className="flex items-end justify-center w-[389px] sm:w-[589px] h-[601px] bg-[#FFEEDB]">
             <Image
               src="/phone2.png"
               alt="phone"

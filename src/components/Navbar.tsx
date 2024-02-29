@@ -8,7 +8,7 @@ const Navbar = () => {
   const [sideNav, setSideNav] = useState(false);
 
   return (
-    <div className="flex items-center py-5 px-10 justify-between w-full lg:px-32">
+    <div className="flex items-center py-5 px-10 justify-between w-full">
       <div className="ml-5 md:ml-16 ">
         <Image
           src="/logo.png"
