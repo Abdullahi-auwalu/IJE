@@ -1,10 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-import { MdKeyboardArrowUp } from "react-icons/md";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
-const AskedQuestions = ({ question, answer }) => {
+interface Props {
+  question: string;
+  answer: string;
+}
+
+const AskedQuestions: React.FC<Props> = ({ question, answer }) => {
   const [isTextVisible, setIsTextVisible] = useState(false);
 
   const handleClick = () => {
@@ -45,6 +49,52 @@ const AskedQuestions = ({ question, answer }) => {
 };
 
 export default AskedQuestions;
+
+// import React, { useState } from "react";
+// import { MdKeyboardArrowUp } from "react-icons/md";
+// import { MdKeyboardArrowDown } from "react-icons/md";
+
+// const AskedQuestions = ({ question, answer }) => {
+//   const [isTextVisible, setIsTextVisible] = useState(false);
+
+//   const handleClick = () => {
+//     setIsTextVisible(!isTextVisible);
+//   };
+
+//   return (
+//     <div>
+//       <div className=" px-14 w-auto">
+//         <div
+//           className={`px-14 lg:h-[199px] p-10 w-auto ${
+//             isTextVisible ? "bg-[#FFF8ED]" : ""
+//           }`}
+//         >
+//           <div className="flex w-full justify-between">
+//             <h3 className="pb-10 text-2xl text-[#111827] font-bold">
+//               {question}
+//             </h3>
+//             {isTextVisible ? (
+//               <MdKeyboardArrowUp
+//                 size={25}
+//                 className="flex float-right cursor-pointer"
+//                 onClick={handleClick}
+//               />
+//             ) : (
+//               <MdKeyboardArrowDown
+//                 size={25}
+//                 className="flex float-right cursor-pointer"
+//                 onClick={handleClick}
+//               />
+//             )}
+//           </div>
+//           {isTextVisible && <p className="text-[#4B5563]">{answer}</p>}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default AskedQuestions;
 
 // import { useState } from "react";
 // import { MdKeyboardArrowUp } from "react-icons/md";
