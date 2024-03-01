@@ -17,48 +17,7 @@ export default function Home() {
       <About />
       <HowItWorks />
       <Download />
-      <div className="py-20 w-full">
-        <div className="px-24 py-20 lg:px-32">
-          <h3 className="text-3xl font-extrabold text-[#111827] ">
-            Frequently Asked Questions
-          </h3>
-          <p className="mt-4 text-[#4B5563]">
-            We answered them so you don’t have to ask.
-          </p>
-        </div>
-        <AskedQuestions
-          question="How much do I pay to order a ride?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="Can I drive for Ije?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="How much do I pay to order a ride?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="Can I drive for Ije?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="How much do I pay to order a ride?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="Can I drive for Ije?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="How much do I pay to order a ride?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-        <AskedQuestions
-          question="Can I drive for Ije?"
-          answer="We currently only serve registered businesses in Nigeria. We support sole traders, NGOs, partnerships, and limited liability companies. However, If your business is not yet registered, Brass can help you get your desired business registered on time with our partners."
-        />
-      </div>
+      <AskedQuestions />
       <Footer />
     </main>
   );
