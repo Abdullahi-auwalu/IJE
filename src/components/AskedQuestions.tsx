@@ -1,14 +1,16 @@
 "use client";
-
-import React, { useState } from "react";
+import { useState } from "react";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 
-interface Props {
+interface AskedQuestionsProps {
   question: string;
   answer: string;
 }
 
-const AskedQuestions: React.FC<Props> = ({ question, answer }) => {
+const AskedQuestions: React.FC<AskedQuestionsProps> = ({
+  question,
+  answer,
+}: AskedQuestionsProps) => {
   const [isTextVisible, setIsTextVisible] = useState(false);
 
   const handleClick = () => {
