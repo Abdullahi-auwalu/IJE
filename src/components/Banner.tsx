@@ -9,20 +9,20 @@ const Banner = () => {
         <p className="py-3">
           ...your one stop platform for all your transportation needs
         </p>
-        <div className="flex lg:w-[450px] w-[311px] py-3 ">
+        <div className="flex lg:w-[450px] w-[311px] py-3 gap-2  ">
           <Image
             src="/play-store.png"
-            alt="Logo"
-            width={100}
-            height={25}
+            alt="play-store"
+            width={200}
+            height={100}
             className=" w-[150px] sm:w-[200px] h-[80px]"
           />
           <Image
             src="/apple-store.png"
-            alt="Logo"
-            width={100}
-            height={25}
-            className="w-[150px] sm:w-[200px]sm: h-[80px]"
+            alt="play-store"
+            width={150}
+            height={70}
+            className=" w-[150px] sm:w-[200px] h-[80px]"
           />
         </div>
       </div>
