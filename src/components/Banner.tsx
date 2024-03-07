@@ -15,14 +15,14 @@ const Banner = () => {
             alt="play-store"
             width={200}
             height={100}
-            className=" w-[150px] sm:w-[200px] h-[80px]"
+            className=" w-[150px] sm:w-[150px]"
           />
           <Image
             src="/apple-store.png"
             alt="play-store"
             width={150}
             height={70}
-            className=" w-[150px] sm:w-[200px] h-[80px]"
+            className=" w-[150px] sm:w-[150px] "
           />
         </div>
       </div>

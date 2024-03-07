@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#111827]  md:h-[898px] h-[1400px] w-full">
+    <div className=" bg-[#111827] w-full pb-[30px]">
       <div className="flex flex-col items-center py-10 justify-center">
         <div className="flex flex-col h-[100px] w-auto text-center">
           <h1 className="text-[#E5E7EB] text-3xl font-bold py-5">
@@ -94,8 +94,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="bg-[#374151] mt-32" />
-      <p className="text-center mt-16 text-[#9CA3AF] -mb-5">
+      <hr className="bg-[#374151] mt-32 " />
+      <p className="text-center mt-[30px] text-[#9CA3AF]">
         Copyright © 2021 Ijeoma Ltd.
       </p>
     </div>
